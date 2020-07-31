@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./pexels-aleksandar-pasaric-325185.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid silver;
+    width: 65%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 5px 5px black;
+}
+
+h2 {
+    font-style: oblique;
+    font-weight: unset;
+    font-stretch: expanded;
+    text-shadow: 5px 5px 5px rgb(12, 12, 12);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.the-count {
+    font-size: 4rem;
+    font-weight: bold;
+    border: 1px solid silver;
+    padding: 0.5rem 1.75rem;
+    background: rgba(75, 228, 45, 0.7);
+    border-radius: 5px;
+}
+
+.decrease-button {
+background: red;
+padding: 0.5rem 1rem;
+border: 1px solid rgb(0, 0, 0);
+color: #fff;
+border-radius: 5px;
+}
+
+.increase-button {
+background: green;
+padding: 0.5rem 1rem;
+border: 1px solid rgb(0, 0, 0);
+color: #fff;
+border-radius: 5px;
+}
+
+.decrease-button:hover, .increase-button:hover {
+    opacity: 0.6;
+}
